@@ -1,0 +1,29 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated Spark data, processed datasets, and trained models
+data/processed/
+
+# Large raw datasets (exceed GitHub's 100 MB individual file limit)
+rating.csv
+genome_scores.csv
+
+# Generated temporary files
+*.log
+*.tmp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local secrets
+.env
+.env.*
+!.env.example
